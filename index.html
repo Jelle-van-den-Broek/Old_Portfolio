@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Homepage - Jelle van den Broek</title>
+
+
+
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="icon" href="Images/RocketLogo.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="index.js"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- End Google fonts -->
+
+
+</head>
+
+<body class="MainBody">
+
+
+    <div class="Header" id="Header">
+        <div class="Header-Text" id="Header-Text">
+            <span>J</span>
+            <span>e</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>  </span>
+            <span>v</span>
+            <span>a</span>
+            <span>n</span>
+            <span>  </span>
+            <span>d</span>
+            <span>e</span>
+            <span>n</span>
+            <span>  </span>
+            <span>B</span>
+            <span>r</span>
+            <span>o</span>
+            <span>e</span>
+            <span>k</span>
+            <br>
+            <span>s</span>
+            <span>o</span>
+            <span>f</span>
+            <span>t</span>
+            <span>w</span>
+            <span>a</span>
+            <span>r</span>
+            <span>e</span>
+            <span> </span>
+            <span>d</span>
+            <span>e</span>
+            <span>v</span>
+            <span>e</span>
+            <span>l</span>
+            <span>o</span>
+            <span>p</span>
+            <span>e</span>
+            <span>r</span>
+        </div>
+        <a href="#Under-Header">
+        <div class="Header-Logo" id="Header-Logo">
+            <img src="Images/RocketLogo.png">
+        </div>
+        </a>
+        <div class="Header-Buttons" id="Header-Buttons">
+            <ul>
+                <li><a href="#about">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <i class='bx bxs-face'></i>
+                  ABOUT</a></li>
+                <li><a href="#projects">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <i class='bx bxs-component'></i>
+                  PROJECTS</a></li>
+                  <li><a href="#skills">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class='bx bxs-user-detail'></i>
+                    SKILLS</a></li>
+                <li><a href="#contact">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <i class='bx bxs-contact'></i>
+                  CONTACT</a></li>
+              </ul>
+        </div>
+        <div class="Stars-Wrap">
+            <div class="stars" id="stars"></div>
+            <div class="stars2" id="stars2"></div>
+            <div class="stars3" id="stars3"></div>
+        </div>
+
+    </div>
+    <div class="page-scroll-indicator" id="page-scroll-indicator">
+        <div class="progress" id="progress"></div>
+      </div>
+    <div class="Under-Header" id="Under-Header"></div>
+
+    <div class="Content" id="content">
+        <div class="About" id="about">
+            <div class="PagesTitle" id="PagesTitle">
+                About Me
+            </div>
+            <div class="AboutContent">I am a Software Developer student at SintLucas. My hometown and school are both located in the Netherlands. My passion lies mainly in Game Development and Web Development. Later I would also like to start a Web Development company that makes website for other companies. At Web Development I like both Front-End and Back-End equally (Full Stack). I can work well in a group and alone. I am a person who likes to be challenged and you will notice that my motivation increases very fast.</div>
+            <div class="AboutImg">
+                <img src="Images/RocketLogo.png">
+            </div>
+        </div>
+        <div class="FullScreenDisplay" id="FullScreenDisplayWeb">
+            <div class="FullScreenTitle">Web Development</div>
+            <ul>
+                <li class="BackButton"><a onclick="webrev()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    BACK</a></li>
+            </ul>
+            <div class="ProjectCard" id="ProjectCard">
+                <div class="CardTitle">Practice Website (Grade 1)</div>
+                <div class="CardImage"><img src="Images/Projects/Web/Website2.PNG" alt=""></div>
+                <div class="CardInfo">This was the first time I had to make a website for an assignment. In this we tested what I could already do with Web Development. <a href="https://github.com/jellybeerke/Portfolio_Website" target="_blank">Link to code (wrong link location)</a></div>
+                <video width="400" controls>
+                    <source src="videos/Website2.mp4" type="video/mp4">
+                  </video>
+            </div>
+
+            <div class="ProjectCard" id="ProjectCard1">
+                <div class="CardTitle">Portfolio Website (Grade 1)</div>
+                <div class="CardImage"><img src="Images/Projects/Web/Website1.PNG" alt=""></div>
+                <div class="CardInfo">In this website we had to show our assignments that we had made in the first year. I also added the NRE courses. I was quite proud of this website. <a href="https://github.com/jellybeerke/Portfolio_Website" target="_blank">Link to code (wrong link location)</a></div>
+                <video width="400" controls>
+                    <source src="videos/Website1.mp4" type="video/mp4">
+                  </video>
+            </div>
+
+            <div class="ProjectCard" id="ProjectCard2">
+                <div class="CardTitle">Portfolio Website Prototype (Grade 2)</div>
+                <div class="CardImage"><img src="Images/Projects/Web/Portfolio.PNG" alt=""></div>
+                <div class="CardInfo">This was my first version of my portfolio website, but after a while I didn't like it that much. Then I switched to the portfolio website you are on now. <a href="https://github.com/jellybeerke/Portfolio_Website" target="_blank">Link to code (wrong link location)</a></div>
+                <video width="400" controls>
+                    <source src="videos/Portfolio.mp4" type="video/mp4">
+                  </video>
+            </div>
+        </div>
+        <div class="FullScreenDisplay" id="FullScreenDisplayGame">
+            <div class="FullScreenTitle">Game Development</div>
+            <ul>
+                <li class="BackButton"><a onclick="gamerev()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    BACK</a></li>
+            </ul>
+            <div class="ProjectCard" id="ProjectCard">
+                <div class="CardTitle">XYZ Game (Grade 1)</div>
+                <div class="CardImage"><img src="Images/Projects/Game/XYZgame.png" alt=""></div>
+                <div class="CardInfo">This was my first 3d game that we had to make for an assignment. It is made in Unity. It was quite a difficult assignment, because I didn't have much knowledge of Game Development at the time. <a href="https://github.com/jellybeerke/Portfolio_Website" target="_blank">Link to code (wrong link location)</a></div>
+
+                <video width="400" controls>
+                    <source src="videos/XYZgame.mp4" type="video/mp4">
+                  </video>
+            </div>
+
+            <div class="ProjectCard" id="ProjectCard1">
+                <div class="CardTitle">5 Luik Game (Grade 1)</div>
+                <div class="CardImage"><img src="Images/Projects/Game/5Luik.png" alt=""></div>
+                <div class="CardInfo">For this project we had to come up with something to show what we learned in the first year. I chose a game with a mario theme. <a href="https://github.com/jellybeerke/Portfolio_Website" target="_blank">Link to code (wrong link location)</a></div>
+                <video width="400" controls>
+                    <source src="videos/5_luik_Mario.mp4" type="video/mp4">
+                  </video>
+            </div>
+
+            <div class="ProjectCard" id="ProjectCard2">
+                <div class="CardTitle">Arcade Game (Grade 2)</div>
+                <div class="CardImage"><img src="Images/Projects/Game/Arcade.png" alt=""></div>
+                <div class="CardInfo">In this project we had to make a game for an arcade cabinet. We had to do that together with the game art training. I was quite pleased with the result. Unfortunately there was a mistake with the bull character. <a href="https://github.com/jellybeerke/Portfolio_Website" target="_blank">Link to code (wrong link location)</a></div>
+                <video width="400" controls>
+                    <source src="videos/Arcade.mp4" type="video/mp4">
+                  </video>
+            </div>
+        </div>
+        <div class="FullScreenDisplay" id="FullScreenDisplayApp">
+            <div class="FullScreenTitle">App Development</div>
+            <ul>
+                <li class="BackButton"><a onclick="apprev()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    BACK</a></li>
+            </ul>
+            
+        </div>
+        <div class="Projects" id="projects">
+            <div class="PagesTitle" id="PagesTitle">
+                Projects
+            </div>
+            <ul class="ProjectContent">
+                
+                <li class="ProjectItem">
+                    <a onclick="web()">
+                    <div class="ProjectTitle">Web Development</div>
+                    <div class="ProjectIcon"></div>
+                    <div class="ProjectBackground"></div>
+                    </a>
+                </li
+                ><li class="ProjectItem">
+                    <a onclick="game()">
+                    <div class="ProjectTitle">Game Development</div>
+                    <div class="ProjectIcon"></div>
+                    <div class="ProjectBackground"></div>
+                    </a>
+                </li
+                ><li class="ProjectItem">
+                    <a onclick="app()">
+                    <div class="ProjectTitle">App Development</div>
+                    <div class="ProjectIcon"></div>
+                    <div class="ProjectBackground"></div>
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="Skills" id="skills">
+            <div class="PagesTitle" id="PagesTitle">
+                Skills
+            </div>
+            <div class="SkillsContent">I am a Software Developer and that means I do Website Development, Game Development and App Development. For this I use the languages: <span>Html</span>, <span>Css</span>, <span>Javascript</span>, <span>C#</span> and <span>Python</span>. My best developer profession is Website Development, but I find Game Development more challenging. I actually came to school for Game Development, but that had changed to Software Development. Now I also like to make Websites. We have already made a number of projects and you can see that I still need some practice for Game Development. Website Development is the easiest for me, because it is the easiest to remember the code.
+            </div>
+        </div>
+        <div class="Contact" id="contact">
+            <div class="PagesTitle" id="PagesTitle">
+                Contact
+            </div>
+            <div class="ContactEmail">
+                <form action="https://formsubmit.co/jellevandenbroek@casema.nl" method="POST">
+                    <div class="ContactEmailTitle">Email Me</div>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Email Address">
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <input type="hidden" name="_next" value="http://www.jellevdb.com/">
+                    <input type="hidden" name="_captcha" value="false">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <input type="file" name="attachment">
+                    <button type="submit">Send Mail</button>
+                </form>
+            </div>
+
+            <div class="wrapper">
+                <div class="button">
+                    <a href="https://www.facebook.com/profile.php?id=100009533033855" target="_blank">
+                   <div class="icon">
+                      <i class="fab fa-facebook-f"></i>
+                   </div>
+                   <span>Facebook</span>
+                   </a>
+                </div>
+                <div class="button">
+                    <a href="https://twitter.com/jellebroekvd" target="_blank">
+                   <div class="icon">
+                      <i class="fab fa-twitter"></i>
+                   </div>
+                   <span>Twitter</span>
+                   </a>
+                </div>
+                <div class="button">
+                    <a href="https://www.instagram.com/jelle.vd.broek/" target="_blank">
+                   <div class="icon">
+                      <i class="fab fa-instagram"></i>
+                   </div>
+                   <span>Instagram</span>
+                   </a>
+                </div>
+                <div class="button">
+                    <a href="https://github.com/jellybeerke" target="_blank">
+                    <div class="icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <span>Github</span>
+                    </a>
+                 </div>
+                 <div class="button">
+                    <a href="https://www.linkedin.com/in/jelle-van-den-broek-525933232/" target="_blank">
+                    <div class="icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <span>Linkedin (CV)</span>
+                    </a>
+                 </div>
+             </div>
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
